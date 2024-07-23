@@ -1,0 +1,136 @@
+*{
+    margin: 0px;    
+    font-family: "Inter";
+}
+
+#logo{
+    margin-left: 56px;
+    margin-top: 52px;
+}
+
+#titulo-menusuperior{
+    margin-left: 172px;
+    margin-top: 71px;
+}
+
+#texto-menusuperior{
+    margin-left: 172px;
+    margin-top: 32px;
+    padding-bottom: 151px;
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: #FFFFFF;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 70px 0px 70px 172px;
+    padding: 16px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 80px;
+}
+
+#video{
+    margin: 80px 25px 80px 172px; /* A margem e definida no sentindo horário, começando de cima, direita, baixo, esquerda */
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrosel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 120px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
+}
